@@ -1,0 +1,7 @@
+{
+  "prefix": "todoapp",
+  "paths": {
+    "todoapp": "."
+  },
+  "translations": ["translations/ja-JP.json"]
+}

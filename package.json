@@ -1,0 +1,14 @@
+{
+  "name": "todoapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test:jest": "node ./test/run_jest_tests.js --config ./test/jest.config.js",
+    "build": "yarn plugin-helpers build",
+    "plugin-helpers": "../../scripts/use_node ../../scripts/plugin_helpers",
+    "osd": "../../scripts/use_node ../../scripts/osd"
+  },
+  "dependencies": {
+    "axios": "^1.7.4"
+  }
+}

@@ -1,0 +1,18 @@
+.error-message{
+    font-size: 14px;
+    color: red;
+}
+
+
+@media (max-width: 934px) {
+    .textfield .euiFormControlLayout .hero {
+        max-width: 100% !important;
+    }
+
+    .textfield .euiFormControlLayout{
+        max-width: 100% !important;   
+    }
+
+}
+
+
